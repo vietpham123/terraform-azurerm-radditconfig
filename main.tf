@@ -10,7 +10,7 @@ resource "null_resource" "raddit" {
 
     connection {
       type        = "ssh"
-      host        = data.terraform_remote_state.vm.outputs.public_ip
+      host        = var.host_name
       user        = var.user_name
       password    = var.user_password
       timeout     = "1m"
