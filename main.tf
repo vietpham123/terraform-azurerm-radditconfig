@@ -10,7 +10,7 @@ resource "null_resource" "raddit" {
 
     connection {
       type        = "ssh"
-      host        = var.host_name
+      host        = var.h_name
       user        = var.user_name
       password    = var.user_password
       timeout     = "1m"
