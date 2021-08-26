@@ -7,3 +7,8 @@ variable "user_password" {
   type = string
   default = ""
 }
+
+variable "h_name" {
+  type = string
+  default = ""
+}
