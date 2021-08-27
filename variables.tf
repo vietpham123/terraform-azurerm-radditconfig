@@ -8,7 +8,7 @@ variable "user_password" {
   default = ""
 }
 
-variable "h_name" {
+variable "vpc_hostname" {
   type = string
   default = ""
 }
